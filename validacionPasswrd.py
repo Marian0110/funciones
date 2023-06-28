@@ -12,7 +12,7 @@
 def comprobarPassword(password):
     largo = False #comprobacion si no cumple la password con el largo requerido
     mayus = False #comprobacion si no tiene mayuscula
-    numer = False #comprobacion si noy numeros
+    numer = False #comprobacion si no hay numeros
     if len(password) > 8:
         largo = True
     for i in range(len(password)):

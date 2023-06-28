@@ -1,4 +1,4 @@
-from funciones.funcion import *
+from funciones import *
 
 saludo()
 

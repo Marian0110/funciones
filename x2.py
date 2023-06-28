@@ -1,3 +1,6 @@
+from x import *
+
+
 
 
 while True:
@@ -7,9 +10,14 @@ while True:
     opc = int(input("Ingrese una opcion: "))
     
     if opc == 1:
+        grabarPersona()
+        
     elif opc == 2:
+        print("kbj")
     elif opc == 3:
+        print("kbj")
     elif opc == 4:
+        print("kbj")
     elif opc == 5:
         print("Saldras del menu")
         break
